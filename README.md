@@ -1,3 +1,3 @@
 # Sentiment Analysis of Democratic Debates
 
-Studying tweets during both Democratic Debates in July 2019
+How did Twitter users feel about the performance of the candidates in the debates?
