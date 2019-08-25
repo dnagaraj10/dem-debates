@@ -1,3 +1,4 @@
 # Sentiment Analysis of Democratic Debates
 
-How did Twitter users feel about the performance of the candidates in the debates?
+How did Twitter users feel about the debates?
+*source data & auth keys not included*
