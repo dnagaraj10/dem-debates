@@ -10,26 +10,26 @@ import re
 from textblob import TextBlob
 
 
-# In[3]:
+# In[2]:
 
 
 df = pd.read_csv('demDebateCSV')
 df = df.head()
 
 
-# In[4]:
+# In[3]:
 
 
 df.dropna(inplace=False)
 
 
-# In[5]:
+# In[4]:
 
 
 text_lines = df['tweet_text'].tolist()
 
 
-# In[ ]:
+# In[5]:
 
 
 stoplist = stopwords.words('english')
@@ -53,7 +53,7 @@ neutral_tweets = [tweet for tweet in tweet_corpus if tweet.sentiment.polarity ==
 negative_tweets = [tweet for tweet in tweet_corpus if tweet.sentiment.polarity < 0]
 
 
-# In[ ]:
+# In[8]:
 
 
 print("Positive Tweets Percentage: {} %".format(100*len(positive_tweets)/len(tweet_corpus)))
